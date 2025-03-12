@@ -2,5 +2,10 @@
   "ABOUT_ME": "À propos de moi",
   "SKILLS": "Compétences",
   "PORTFOLIO": "Portfolio",
-  "CONTACT": "Contact"
+  "CONTACT": "Contact",
+
+  "INTRO": "Bonjour, je suis",
+  "NAME": "Hamidou Diallo",
+  "DESIGNATION": "Développeur de logiciels",
+  "SUMMARY": "Je suis un développeur de logiciels passionné par le développement de programmes innovants qui accélèrent l'efficacité et l'efficacité du succès organisationnel. Bien versé dans la technologie et l'écriture de code pour créer des systèmes fiables et conviviaux. Je suis également un joueur d'équipe hautement adaptable dans des environnements techniques en évolution rapide."
 }
