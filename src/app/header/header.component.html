@@ -1,13 +1,25 @@
 <nav>
   <h1 class="clickable">Hamidou</h1>
 
-  <div class="navbar-header">
-    <a class="navbar-brand clickable">About me</a>
-    <a class="clickable">Skills</a>
-    <a class="clickable">Portfolio</a>
-  </div>
+    <div class="navbar">
+      <div class="navbar-header">
+        <a class="clickable">{{ 'ABOUT_ME' | translate }}</a>
+        <a class="clickable">{{ 'SKILLS' | translate }}</a>
+        <a class="clickable">{{ 'PORTFOLIO' | translate }}</a>
+      </div>
+      <div>
+        <button (click)="changeLanguage('de')">DE</button>
+        <button (click)="changeLanguage('en')">EN</button>
+        <button (click)="changeLanguage('fr')">FR</button>
+      </div>
+    </div>
 
-  <img class="menu clickable" src="./../../assets/img/burger_menu.png" alt="Menu" />
+  
+  <img
+    class="menu clickable"
+    src="./../../assets/img/burger_menu.png"
+    alt="Menu"
+  />
 </nav>
 
 <div class="overlay">
@@ -25,5 +37,11 @@
     <a>My skills</a>
     <a>Portfolio</a>
     <a>Contact</a>
+
+    <div class="overlay-lang">
+      <button>DE</button> /
+      <button>EN</button>/
+      <button>FR</button>
+    </div>
   </div>
 </div>
