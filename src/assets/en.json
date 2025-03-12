@@ -2,5 +2,10 @@
   "ABOUT_ME": "About me",
   "SKILLS": "Skills",
   "PORTFOLIO": "Portfolio",
-  "CONTACT": "Contact"
+  "CONTACT": "Contact",
+
+  "INTRO": "Hello, I'm",
+  "NAME": "Hamidu Diallo",
+  "DESIGNATION": "Software Developer",
+  "SUMMARY": "I am a software developer with a passion for developing innovative programs that expedite the efficiency and effectiveness of organizational success. Well-versed in technology and writing code to create systems that are reliable and user-friendly. I am also a team player who is highly adaptable in quickly changing technical environments."
 }

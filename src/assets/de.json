@@ -2,6 +2,25 @@
   "ABOUT_ME": "Über mich",
   "SKILLS": "Fähigkeiten",
   "PORTFOLIO": "Portfolio",
-  "CONTACT": "Kontakt"
+  "CONTACT": "Kontakt",
+
+  "INTRO": "Hallo, ich bin",
+  "NAME": "Hamidou Diallo",
+  "DESIGNATION": "Softwareentwickler",
+  "SUMMARY": "Ich bin ein Softwareentwickler mit einer Leidenschaft für die Entwicklung innovativer Programme, die die Effizienz und Effektivität des organisatorischen Erfolgs beschleunigen. Gut vertraut mit Technologie und dem Schreiben von Code zur Erstellung von Systemen, die zuverlässig und benutzerfreundlich sind. Ich bin auch ein Teamplayer, der sich schnell an sich ändernde technische Umgebungen anpassen kann.",
+ 
+  "SKILLS_DESCRIPTION": "Ich habe Erfahrung in der Entwicklung von Webanwendungen und mobilen Anwendungen. Hier sind einige Technologien, mit denen ich gerne arbeite:",
+ 
+ 
+  "introduction": {
+    "title": "Hallo, ich bin",
+    "name": "Sourav Saha",
+    "designation": "Softwareentwickler",
+    "summary": "Ich bin ein Softwareentwickler mit einer Leidenschaft für die Entwicklung innovativer Programme, die die Effizienz und Effektivität des organisatorischen Erfolgs beschleunigen. Gut vertraut mit Technologie und dem Schreiben von Code zur Erstellung von Systemen, die zuverlässig und benutzerfreundlich sind. Ich bin auch ein Teamplayer, der sich schnell an sich ändernde technische Umgebungen anpassen kann."
+  },
+  "skills": {
+    "title": "Meine Fähigkeiten",
+    "description": "Ich habe Erfahrung in der Entwicklung von Webanwendungen und mobilen Anwendungen. Hier sind einige Technologien, mit denen ich gerne arbeite:"
+  }
 }
 
