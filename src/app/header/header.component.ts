@@ -12,7 +12,7 @@ import { TranslateModule } from '@ngx-translate/core';
 })
 export class HeaderComponent {
   constructor(private translate: TranslateService) {
-    this.translate.setDefaultLang('en'); // Standard-Sprache setzen
+    this.translate.setDefaultLang('de'); // Standard-Sprache setzen
   }
 
   changeLanguage(lang: string) {

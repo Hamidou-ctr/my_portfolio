@@ -1,20 +1,19 @@
 <nav>
   <h1 class="clickable">Hamidou</h1>
 
-    <div class="navbar">
-      <div class="navbar-header">
-        <a class="clickable">{{ 'ABOUT_ME' | translate }}</a>
-        <a class="clickable">{{ 'SKILLS' | translate }}</a>
-        <a class="clickable">{{ 'PORTFOLIO' | translate }}</a>
-      </div>
-      <div>
-        <button (click)="changeLanguage('de')">DE</button>
-        <button (click)="changeLanguage('en')">EN</button>
-        <button (click)="changeLanguage('fr')">FR</button>
-      </div>
+  <div class="navbar">
+    <div class="navbar-header">
+      <a class="clickable">{{ "ABOUT_ME" | translate }}</a>
+      <a class="clickable">{{ "SKILLS" | translate }}</a>
+      <a class="clickable">{{ "PORTFOLIO" | translate }}</a>
     </div>
+    <div>
+      <button (click)="changeLanguage('de')" [class.active]="currentLanguage === 'de'">DE</button>
+      <button (click)="changeLanguage('en')" [class.active]="currentLanguage === 'en'">EN</button>
+      <button (click)="changeLanguage('fr')" [class.active]="currentLanguage === 'fr'">FR</button>
+    </div>
+  </div>
 
-  
   <img
     class="menu clickable"
     src="./../../assets/img/burger_menu.png"
@@ -39,9 +38,9 @@
     <a>Contact</a>
 
     <div class="overlay-lang">
-      <button (click)="changeLanguage('de')">DE</button>
-        <button (click)="changeLanguage('en')">EN</button>
-        <button (click)="changeLanguage('fr')">FR</button>
+      <button (click)="changeLanguage('de')" [class.active]="currentLanguage === 'de'">DE</button>
+      <button (click)="changeLanguage('en')" [class.active]="currentLanguage === 'en'">EN</button>
+      <button (click)="changeLanguage('fr')" [class.active]="currentLanguage === 'fr'">FR</button>
     </div>
   </div>
 </div>

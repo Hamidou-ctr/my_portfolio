@@ -1,49 +1,75 @@
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5%  5%;
+    padding: 0 5% 0 5%;
     background-color: #282c34;
     position: sticky;
     top: 0;
-}
-
-.navbar{
+  }
+  
+  .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
-}
-
-h1{
+  }
+  
+  h1 {
     font-size: clamp(1.25rem, 8vw, 9rem);
     color: white;
-}
-
-a{
+  }
+  
+  button {
+    color: white;
+    background-color: #282c34;
+    padding: 5%;
+    border: 2px solid greenyellow;
+    border-radius: 8px;
+    gap: 0.5rem;
+    cursor: pointer;
+  
+    &:hover {
+      background-color: greenyellow;
+      color: black;
+    }
+  
+    &.active {
+      background-color: greenyellow; // Stil für den aktiven Button
+      color: black;
+    }
+  }
+  
+  .overlay-lang {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  a {
     color: white;
     text-decoration: none;
     font-size: clamp(1rem, 4vw, 2rem);
-}
-
-.navbar-header{
+  }
+  
+  .navbar-header {
     display: flex;
     align-items: center;
     gap: 1rem;
-}
-
-.menu{
+  }
+  
+  .menu {
     display: none;
     gap: 1rem;
-}
-
-@media screen and (max-width: 768px){
-
-    .navbar{
-        display: none;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navbar {
+      display: none;
     }
-    
-    .menu{
-        display: flex;
+  
+    .menu {
+      display: flex;
     }
-}
+  }
